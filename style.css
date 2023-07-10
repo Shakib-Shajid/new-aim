@@ -38,7 +38,6 @@ header {
     color: #005FAC;
     font-size: 20px;
 }
-/* background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(../Image/bg.jpg); */
 
 /* failure  */
 
@@ -74,6 +73,7 @@ header {
 
 .plans{
     justify-content: center;
+    text-align: center;
     display: flex;
     gap: 150px;
 }
@@ -88,4 +88,32 @@ header {
 .plan-title{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.plan-image{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%),url("images/watch.png") ;
+    background-repeat: no-repeat;
+    max-width: 70%;
+    height: 40vh;
+    box-sizing: border-box;
+    margin: 40px 200px;
+    padding: 70px 0 0 70px;
+    border-radius: 5px;
+}
+
+.btn-plan{
+    color: #005FAC;
+    background: #FFF;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 36px;
+}
+
+/* watch */
+.watch-title{
+    color: #FFF;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
