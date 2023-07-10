@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    font-family: Work Sans;
+}
+
+header {
+    background-image: url('./images/banner/banner.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.header-body{
+    text-align: right;
+    padding: 200px 0 0 900px;
+    width: 30%;
+
+}
+
+.header-title {
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+}
+
+.header-desc{
+    margin-top: 24;
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.btn-contact{
+    border-radius: 5px;
+    background-color:#FFF;;
+    padding: 20px;
+    border: 0px;
+    color: #005FAC;
+    font-size: 20px;
+}
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(../Image/bg.jpg); */
+
+/* failure  */
+
+.failure-section{
+    padding-left: 200px;
+    gap: 100px;
+    display: flex;
+}
+
+.failure-title{
+    color: #151414;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.failure-desc{
+    color: #444343;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.failure-body{
+    padding: 300px 10px 30px 0px;
+}
+
+.failure-point li{
+    color: #444343;
+    list-style: "✔ ";
+    margin-left: -20px;
+}
+
+
+
